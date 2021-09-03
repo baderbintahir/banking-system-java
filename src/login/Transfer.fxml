@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextField?>
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="520.0" prefWidth="580.0" styleClass="parent1" stylesheets="@fxml.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.TransferController">
+   <children>
+      <JFXTextField fx:id="accountno" focusColor="ORANGE" labelFloat="true" layoutX="177.0" layoutY="107.0" prefHeight="30.0" prefWidth="170.0" promptText="Account No" styleClass="fieldstxt" stylesheets="@fxml.css" unFocusColor="#394040">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="name" editable="false" focusColor="ORANGE" labelFloat="true" layoutX="177.0" layoutY="174.0" prefHeight="30.0" prefWidth="170.0" promptText="Name" styleClass="fieldstxt" stylesheets="@fxml.css" unFocusColor="#394040">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="balance" editable="false" focusColor="ORANGE" labelFloat="true" layoutX="177.0" layoutY="241.0" prefHeight="30.0" prefWidth="170.0" promptText="Balance" styleClass="fieldstxt" stylesheets="@fxml.css" unFocusColor="#394040">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="creditaccount" focusColor="ORANGE" labelFloat="true" layoutX="177.0" layoutY="308.0" prefHeight="30.0" prefWidth="170.0" promptText="Credit Account" styleClass="fieldstxt" stylesheets="@fxml.css" unFocusColor="#394040">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="transfer" focusColor="ORANGE" labelFloat="true" layoutX="177.0" layoutY="375.0" prefHeight="30.0" prefWidth="170.0" promptText="Transfer Amount" styleClass="fieldstxt" stylesheets="@fxml.css" unFocusColor="#394040">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXTextField>
+      <Button fx:id="transferbutton" layoutX="370.0" layoutY="375.0" mnemonicParsing="false" onAction="#handlebuttonaction" prefHeight="35.0" prefWidth="90.0" stylesheets="@fxml.css" text="Transfer" textFill="#003333">
+         <styleClass>
+            <String fx:value="buttonsmainpage" />
+            <String fx:value="buttonsmainpagetxt" />
+         </styleClass>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="search1" layoutX="370.0" layoutY="107.0" mnemonicParsing="false" onAction="#handlebuttonaction" prefHeight="35.0" prefWidth="90.0" stylesheets="@fxml.css" text="Search" textFill="#003333">
+         <styleClass>
+            <String fx:value="buttonsmainpage" />
+            <String fx:value="buttonsmainpagetxt" />
+         </styleClass>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

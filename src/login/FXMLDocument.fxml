@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import java.lang.String?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" onMouseDragged="#draged" onMousePressed="#presed" prefHeight="400.0" prefWidth="280.0" styleClass="parent1" stylesheets="@fxml.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.FXMLDocumentController">
+   <children>
+      <ImageView fitHeight="129.0" fitWidth="130.0" layoutX="71.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pic.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="86.0" layoutY="122.0" stylesheets="@fxml.css" text="Welcome To" textAlignment="CENTER" textFill="#003333">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="76.0" layoutY="149.0" stylesheets="@fxml.css" text="Apple Banking " textAlignment="CENTER" textFill="#003333">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="108.0" layoutY="176.0" stylesheets="@fxml.css" text="System" textAlignment="CENTER" textFill="#003333">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="login" layoutX="55.0" layoutY="335.0" onAction="#handleButtonAction" prefHeight="35.0" prefWidth="170.0" stylesheets="@fxml.css" text="Login" textFill="#003333">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <styleClass>
+            <String fx:value="loginbtntxt" />
+            <String fx:value="loginbtn" />
+         </styleClass></JFXButton>
+      <JFXTextField fx:id="username" focusColor="ORANGE" labelFloat="true" layoutX="54.0" layoutY="234.0" prefHeight="30.0" prefWidth="170.0" promptText="User Name" styleClass="fieldstxt" stylesheets="@fxml.css" unFocusColor="#394040">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXTextField>
+      <JFXPasswordField fx:id="password" focusColor="ORANGE" labelFloat="true" layoutX="55.0" layoutY="280.0" prefHeight="30.0" prefWidth="170.0" promptText="Password" styleClass="fieldstxt" stylesheets="@fxml.css" unFocusColor="#394040">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXPasswordField>
+      <Label layoutX="259.0" layoutY="-1.0" onMouseClicked="#closeapp" styleClass="X-" stylesheets="@fxml.css" text="X" textAlignment="CENTER" textFill="#003333">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

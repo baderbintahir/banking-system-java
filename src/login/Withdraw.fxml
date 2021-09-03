@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextField?>
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="520.0" prefWidth="580.0" styleClass="parent1" stylesheets="@fxml.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.WithdrawController">
+   <children>
+      <JFXTextField fx:id="accountno" focusColor="ORANGE" labelFloat="true" layoutX="179.0" layoutY="138.0" prefHeight="30.0" prefWidth="170.0" promptText="Account No" styleClass="fieldstxt" stylesheets="@fxml.css" unFocusColor="#394040">
+         <font>
+            <Font size="16.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="name" editable="false" focusColor="ORANGE" labelFloat="true" layoutX="179.0" layoutY="205.0" prefHeight="30.0" prefWidth="170.0" promptText="Name" styleClass="fieldstxt" stylesheets="@fxml.css" unFocusColor="#394040">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="balance" editable="false" focusColor="ORANGE" labelFloat="true" layoutX="179.0" layoutY="273.0" prefHeight="30.0" prefWidth="170.0" promptText="Balance" styleClass="fieldstxt" stylesheets="@fxml.css" unFocusColor="#394040">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="withdraw" focusColor="ORANGE" labelFloat="true" layoutX="179.0" layoutY="342.0" prefHeight="30.0" prefWidth="170.0" promptText="Withdraw" styleClass="fieldstxt" stylesheets="@fxml.css" unFocusColor="#394040">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXTextField>
+      <Button fx:id="withdrawbutton" layoutX="372.0" layoutY="342.0" mnemonicParsing="false" onAction="#handlebuttonaction" prefHeight="35.0" prefWidth="90.0" stylesheets="@fxml.css" text="Withdraw" textFill="#003333">
+         <styleClass>
+            <String fx:value="buttonsmainpage" />
+            <String fx:value="buttonsmainpagetxt" />
+         </styleClass>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="search" layoutX="372.0" layoutY="138.0" mnemonicParsing="false" onAction="#handlebuttonaction" prefHeight="35.0" prefWidth="90.0" stylesheets="@fxml.css" text="Search" textFill="#003333">
+         <styleClass>
+            <String fx:value="buttonsmainpage" />
+            <String fx:value="buttonsmainpagetxt" />
+         </styleClass>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

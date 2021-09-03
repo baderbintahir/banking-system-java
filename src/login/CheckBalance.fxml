@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import java.lang.String?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="520.0" prefWidth="580.0" styleClass="parent1" stylesheets="@fxml.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="login.CheckBalanceController">
+   <children>
+      <JFXTextField fx:id="accountno" focusColor="ORANGE" labelFloat="true" layoutX="189.0" layoutY="158.0" prefHeight="30.0" prefWidth="170.0" promptText="Account No" styleClass="fieldstxt" stylesheets="@fxml.css" unFocusColor="#394040">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="name" editable="false" focusColor="ORANGE" labelFloat="true" layoutX="189.0" layoutY="225.0" prefHeight="30.0" prefWidth="170.0" promptText="Name" styleClass="fieldstxt" stylesheets="@fxml.css" unFocusColor="#394040">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="balance" editable="false" focusColor="ORANGE" labelFloat="true" layoutX="189.0" layoutY="292.0" prefHeight="30.0" prefWidth="170.0" promptText="Balance" styleClass="fieldstxt" stylesheets="@fxml.css" unFocusColor="#394040">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton fx:id="search" layoutX="382.0" layoutY="162.0" onAction="#handlebuttonaction" prefHeight="35.0" prefWidth="90.0" stylesheets="@fxml.css" text="Search" textFill="#003333">
+         <styleClass>
+            <String fx:value="buttonsmainpage" />
+            <String fx:value="buttonsmainpagetxt" />
+         </styleClass>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
